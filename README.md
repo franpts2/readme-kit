@@ -50,7 +50,7 @@ gh repo create my-new-project \
 
 cd my-new-project
 ./scripts/new-readme.sh app . --force
-rm -rf templates scripts BADGES.md
+rm -rf templates scripts BADGES.md README.template.md
 ```
 
 The last two lines replace the kit's README with the app template, then remove the kit
@@ -87,7 +87,7 @@ cp -R .github ~/projects/existing-project/
 Add this once:
 
 ```bash
-gh alias set new '!f() { gh repo create "$1" --private --template franpts2/readme-kit --clone && (cd "$1" && ./scripts/new-readme.sh app . --force && rm -rf templates scripts BADGES.md); }; f'
+gh alias set new '!f() { gh repo create "$1" --private --template franpts2/readme-kit --clone && (cd "$1" && ./scripts/new-readme.sh app . --force && rm -rf templates scripts BADGES.md README.template.md); }; f'
 ```
 
 Then:
