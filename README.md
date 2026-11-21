@@ -3,6 +3,10 @@
 One source of truth for READMEs across my repositories: one header pattern, three body
 variants, and a badge cookbook.
 
+Stack badges are copied verbatim from
+[Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+at commit `04ba867` (2026-11-12). The collection is the source; the kit is the local copy.
+
 This repository is a **template repository**. It is meant to be copied, not filled in.
 
 ## What is here
@@ -12,7 +16,7 @@ This repository is a **template repository**. It is meant to be copied, not fill
 | `README.template.md` | Deployed app: the full template |
 | `templates/tool.md` | CLI, library, package, or config repo |
 | `templates/coursework.md` | University / group project |
-| `BADGES.md` | Badge rules, cookbook, and ready-to-paste stacks |
+| `BADGES.md` | Badge rules, the Badges4 cookbook, ready-to-paste stacks, and fallbacks |
 | `scripts/new-readme.sh` | Copy a template into a repo and fill the simple tokens |
 | `scripts/new-project.sh` | Create a new repo from this kit and clean up the kit files |
 | `.github/` | Issue, PR, and security files copied into new repos |
@@ -123,22 +127,29 @@ a second, tiny repo (e.g. `project-template`) containing only `README.md`, `LICE
 2. **Keep the section names.** `About`, `Features`, `Quick Start`, `How It Works`,
    `Project Structure`, `License`. Consistency is the point.
 3. **Status badges are small, stack badges are big.** Two tiers, never mixed.
-4. **4–7 stack badges**, ordered language → framework → styling → data → infrastructure.
-5. **Do not repeat the stack in prose.** Replace the old `Tech Stack` list with 3–5
+4. **Stack badges come from Badges4.** Copy the exact URL from `BADGES.md`; do not tweak
+   the color or logo casing.
+5. **4–7 stack badges**, ordered language → framework → styling → data → infrastructure.
+6. **Do not repeat the stack in prose.** Replace the old `Tech Stack` list with 3–5
    `How It Works` bullets that explain *why*.
-6. **A screenshot is not optional for anything with a UI.**
-7. **No badge that is not true.** No live badge before deployment, no CI badge without a
+7. **A screenshot is not optional for anything with a UI.**
+8. **No badge that is not true.** No live badge before deployment, no CI badge without a
    workflow, no downloads badge for a project nobody downloads.
-8. **Every image has alt text.**
-9. **Every repo gets a LICENSE or an explicit usage note.** Coursework is not silently
-   unlicensed.
-10. **End with the footer tagline.** It is the one line people remember.
+9. **Every image has alt text.**
+10. **Every repo gets a LICENSE or an explicit usage note.** Coursework is not silently
+    unlicensed.
+11. **End with the footer tagline.** It is the one line people remember.
 
 ## Keeping it current
 
 When a new technology becomes part of the stack, add it to `BADGES.md` first, then use
-it. When a section changes, change it in `README.template.md` first. The kit is the
+it. Copy the URL from the [collection](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+verbatim; if it is not there, add it to the fallback table instead of inventing a new
+style. When a section changes, change it in `README.template.md` first. The kit is the
 source of truth; the repositories are outputs.
+
+When the collection changes, bump the commit hash and date at the top of `BADGES.md` and
+re-copy only the badges used here.
 
 ---
 

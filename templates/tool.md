@@ -11,11 +11,11 @@
 <!-- STATUS ROW — omit any fact that is not true. -->
 <p align="left">
   <a href="https://github.com/{{OWNER}}/{{REPO}}/actions/workflows/ci.yml"><img src="https://github.com/{{OWNER}}/{{REPO}}/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/MIT-green?style=flat-square" alt="MIT license"></a>
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell">
+  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Script">
 </p>
 
 ## About

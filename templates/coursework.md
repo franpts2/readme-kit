@@ -1,7 +1,7 @@
 <!--
   README template: university / group project.
   Replace every placeholder, replace the example prose, then delete this comment block.
-  Stack badges: copy from BADGES.md. No live badge unless the project is actually deployed.
+  Stack badges: copy from BADGES.md, which is sourced verbatim from Badges4-README.md-Profile. No live badge unless the project is actually deployed.
 -->
 
 # {{PROJECT}}

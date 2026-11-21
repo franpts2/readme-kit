@@ -2,7 +2,7 @@
   README template: deployed application.
 
   Replace every placeholder, replace the example prose, then delete this comment block.
-  Stack badges: copy from BADGES.md.
+  Stack badges: copy from BADGES.md, which is sourced verbatim from Badges4-README.md-Profile.
   Keep the section names — they are the same in every repository.
 -->
 
@@ -15,14 +15,14 @@
 <p align="left">
   <a href="{{LIVE_URL}}"><img src="https://img.shields.io/badge/live-{{LIVE_HOST}}-FF3D81?style=flat-square" alt="Live site"></a>
   <a href="https://github.com/{{OWNER}}/{{REPO}}/actions/workflows/ci.yml"><img src="https://github.com/{{OWNER}}/{{REPO}}/actions/workflows/ci.yml/badge.svg" alt="CI status"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/MIT-green?style=flat-square" alt="MIT license"></a>
 </p>
 
 <!-- STACK ROW — identity, large, one line, 4–7 badges.
      Order: language → framework → styling → data → infrastructure.
      The example below is TypeScript; replace it with the real stack. -->
 <p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
 </p>
 
 <!-- WIP only. Delete this block when the project is shipped.
