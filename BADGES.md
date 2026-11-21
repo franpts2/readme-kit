@@ -168,10 +168,13 @@ if the name matters.
 ### Graphics
 
 ```html
+<img src="https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white" alt="three.js">
 <img src="https://img.shields.io/badge/OpenGL-FFFFFF?style=for-the-badge&logo=opengl" alt="OpenGL">
 ```
 
-The collection has no WebGL badge. Use `OpenGL`, or the fallback `WebGL` badge below.
+The collection publishes `ThreeJs` for three.js and `OpenGL` for raw OpenGL. It has no
+WebGL badge; use `ThreeJs` for a three.js project, `OpenGL` for raw WebGL, or the fallback
+`WebGL` badge below.
 
 ### Languages and tools
 
@@ -206,6 +209,9 @@ The collection has no WebGL badge. Use `OpenGL`, or the fallback `WebGL` badge b
 <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
 
+<!-- 3D -->
+<img src="https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white" alt="three.js">
+
 <!-- Tools -->
 <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
 <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
@@ -228,7 +234,7 @@ these only when the exact name matters.
 | Typst | — | `Typst-239DAD` with the Typst logo |
 | Turso | `Sqlite` | `Turso-000000` with the Turso logo |
 | Durable Objects | `Cloudflare` | `Durable_Objects-F38020` with the Cloudflare logo |
-| WebGL | `OpenGL` | `WebGL-990000` with the WebGL logo |
+| WebGL | `ThreeJs` for three.js, `OpenGL` for raw WebGL | `WebGL-990000` with the WebGL logo |
 
 ```html
 <!-- Fallbacks: same for-the-badge format, but NOT from Badges4. Do not label them as such. -->
